@@ -1,0 +1,24 @@
+{
+    "name": "alexsancho/wp-redis-group-cache",
+    "type": "wordpress-plugin",
+    "description": "A plugin extending the Redis Object Cache for WordPress with a group cache functionality",
+    "authors": [
+        {
+            "name": "Alex Sancho",
+            "email": "alex@alexsancho.name",
+            "homepage": "https://github.com/alexsancho",
+            "role": "Developer"
+        }
+    ],
+    "keywords": [
+        "wordpress", "redis", "plugin", "cache", "object cache"
+    ],
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4",
+        "roave/security-advisories": "dev-master",
+        "composer/installers": ">=1.0.12",
+        "alexsancho/wp-redis-object-cache": "*"
+    }
+}
