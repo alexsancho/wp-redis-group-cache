@@ -25,7 +25,7 @@ This function deletes all data related to a group key by first fetching all keys
 Usage:
 
 ```
-\Geniem\GroupCache::delete_group( $group_key );
+\Asancho\GroupCache::delete_group( $group_key );
 ```
 
 ## Excluding groups from caching
